@@ -75,7 +75,7 @@ function build_image() {
   BUILD_DIR="$(dirname "${file}")"
   IMAGE_NAME="kaniko"
   IMAGE_TAG="${IMAGE_BASE}/${IMAGE_NAME}"
-  TAG_SUFFIX="debug"
+  TAG_SUFFIX="latest"
 
   IMAGE_TAG+=":${TAG_SUFFIX}"
 
